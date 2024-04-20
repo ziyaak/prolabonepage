@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #555;
+  overflow-x: hidden;
+}
+
+header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+}
+header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+div .btn-buy button {
+  border: none;
+  padding: 10px 30px;
+  background-color: #0000ff;
+  color: white;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+#hero-section {
+  position: relative;
+  background-color: #f7f9ff;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero-section .bg-images {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 100;
+}
+#hero-section .hero-content {
+  display: flex;
+  justify-content: space-between;
+}
+#hero-section .hero-content .left-box {
+  max-width: 540px;
+}
+#hero-section .hero-content .left-box h1 {
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+}
+#hero-section .hero-content .right-img img {
+  max-width: 350px;
+}
+
+.title-section {
+  text-align: center;
+  padding: 20px;
+}
+.title-section h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+}
+.title-section p {
+  font-size: 20px;
+  color: #666;
+  overflow-wrap: break-word;
+}
+
+#prolab-sec .container .title-section {
+  text-align: center;
+  padding: 20px;
+}
+#prolab-sec .container .title-section h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+#prolab-sec .container .paragraph-fonth {
+  text-align: center;
+  margin-top: 20px;
+}
+#prolab-sec .container .paragraph-fonth p {
+  font-size: 20px;
+  color: #666;
+  overflow-wrap: break-word;
+  margin-top: 20px;
+}
+#prolab-sec .about-box {
+  text-align: center;
+  padding: 30px 25px 35px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 30px 20px 0px rgba(0, 37, 93, 0.15);
+}
+
+.inner-box {
+  width: 100%;
+  position: relative;
+  z-index: 99;
+  padding: 27px 25px 35px;
+  transition: 0.3s ease-in;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section-header .section-content {
+  width: 650px;
+}
+
+.about-box .fa-solid {
+  font-size: 55px;
+}
+
+.about-box {
+  text-align: center;
+  padding: 30px 25px 35px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 30px 20px 0px rgba(0, 37, 93, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+.about-box:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #3b26db, #7b19cb);
+  z-index: -1;
+  transition: opacity 1s;
+  opacity: 0.8;
+}
+.about-box:hover .fa-solid {
+  background-image: none; /* Remove gradient on hover */
+}
+.about-box:hover p, .about-box:hover h2 {
+  color: white; /* Change text color to white on hover */
+}
+.about-box .fa-solid {
+  font-size: 55px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(45deg, #7b19cb, #3b26db);
+  transition: background-image 0.3s ease;
+}
+.about-box:hover .fa-solid {
+  background-image: linear-gradient(45deg, #7b19cb, #3b26db);
+}/*# sourceMappingURL=style.css.map */
