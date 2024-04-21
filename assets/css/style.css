@@ -12,7 +12,6 @@ body {
 }
 
 header {
-  overflow: hidden;
   background-color: white;
   padding: 20px 10px;
 }
@@ -86,6 +85,9 @@ div .btn-buy button {
   overflow-wrap: break-word;
 }
 
+#prolab-sec {
+  margin-top: 50px;
+}
 #prolab-sec .container .title-section {
   text-align: center;
   padding: 20px;
@@ -175,5 +177,53 @@ div .btn-buy button {
   transition: background-image 0.3s ease;
 }
 .about-box:hover .fa-solid {
+  background-image: linear-gradient(45deg, #7b19cb, #3b26db);
+}
+
+.about-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.watch-seciton {
+  background-color: #f7f9ff;
+  position: relative;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-imageup {
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  z-index: -1px;
+}
+
+.watch-section {
+  margin-top: 150px;
+  display: flex;
+}
+
+.about-title {
+  text-align: center;
+  padding: 30px 5px 35px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+.about-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+}
+.about-title .fa-regular {
+  font-size: 55px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   background-image: linear-gradient(45deg, #7b19cb, #3b26db);
 }/*# sourceMappingURL=style.css.map */
