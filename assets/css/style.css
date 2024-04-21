@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  width: 100%;
+}
+
 header {
   background-color: white;
   padding: 20px 10px;
@@ -257,12 +261,12 @@ div .btn-buy button {
   display: flex;
   align-items: center;
 }
-.watch-title img {
+.watch-title .whybest-img {
   width: 350px;
 }
 
 .bg-img {
   position: absolute;
   z-index: 100px;
-  top: 550px;
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */

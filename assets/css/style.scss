@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    width: 100%;
+}
+
 header {
     
     background-color: #ffff;
@@ -297,7 +301,7 @@ div {
     height: 650px;
     display: flex;
     align-items: center;
-    img {
+    .whybest-img {
         width: 350px;
     }
 }
@@ -305,9 +309,9 @@ div {
 .bg-img {
     position: absolute;
     z-index: 100px;
-    top: 550px;
-    img {
+    bottom: 0;
+}
+
+.watch-img {
     
-        
-    }
 }
