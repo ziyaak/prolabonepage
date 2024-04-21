@@ -251,6 +251,7 @@ div .btn-buy button {
 }
 
 .watch-title {
+  position: relative;
   background-color: #f7f9ff;
   height: 650px;
   display: flex;
@@ -258,4 +259,10 @@ div .btn-buy button {
 }
 .watch-title img {
   width: 350px;
+}
+
+.bg-img {
+  position: absolute;
+  z-index: 100px;
+  top: 550px;
 }/*# sourceMappingURL=style.css.map */

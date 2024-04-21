@@ -292,12 +292,22 @@ div {
     
     }
 .watch-title {
-    
+    position: relative;
     background-color: #f7f9ff;
     height: 650px;
     display: flex;
     align-items: center;
     img {
         width: 350px;
+    }
+}
+
+.bg-img {
+    position: absolute;
+    z-index: 100px;
+    top: 550px;
+    img {
+    
+        
     }
 }
